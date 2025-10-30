@@ -64,7 +64,7 @@ const Navbar = () => {
         >
           <img className="  md:w-8 lg:w-12" src={logo} alt="Logo Img" />
           <NavLink className=" lg:text-2xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
-            Hero Store
+            Hero App
           </NavLink>
         </div>
       </div>
@@ -94,7 +94,7 @@ const Navbar = () => {
         <Button
           onClick={() =>
             window.open(
-              "https://github.com/siddikur-dev?tab=repositories",
+              "https://github.com/Muaz-Ibn-Kamal",
               "_blank"
             )
           }
