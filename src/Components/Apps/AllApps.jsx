@@ -55,7 +55,7 @@ const AllApps = () => {
   return (
     <div className="bg-[#f5f5f5] py-16">
       <Helmet>
-        <title>Hero Store - All Apps</title>
+        <title>Hero App- All Apps</title>
       </Helmet>
       {/* Page Title */}
       <h1 className="md:text-2xl lg:text-4xl font-bold text-center">
