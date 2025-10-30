@@ -48,12 +48,10 @@ const RatingChart = ({ ratings }) => {
               axisLine={false}
               tickLine={false}
             />
-            {/* Tooltip on hover */}
             <Tooltip
               cursor={{ fill: "rgba(0,0,0,0.05)" }}
               formatter={(value) => [`${value} users`, "Ratings"]}
             />
-            {/* Bars */}
             <Bar
               dataKey="count"
               barSize={20}
